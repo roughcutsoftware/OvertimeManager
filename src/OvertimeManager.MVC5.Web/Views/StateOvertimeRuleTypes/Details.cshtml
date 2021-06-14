@@ -1,0 +1,26 @@
+﻿@model OvertimeManager.MVC5.Web.DbModels.StateOvertimeRuleType
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>StateOvertimeRuleType</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RuleTypeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RuleTypeName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RuleTypeName }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
