@@ -2,6 +2,10 @@
 Install-Package MSTest.TestFramework -Version 1.2.0
 dotnet add package MSTest.TestFramework --version 1.2.0
 
+https://www.nuget.org/packages/EntityFramework/6.4.4
+Install-Package EntityFramework -Version 6.4.4
+dotnet add package EntityFramework --version 6.4.4
+
 https://www.nuget.org/packages/Shouldly/3.0.2
 Install-Package Shouldly -Version 3.0.2
 dotnet add package Shouldly --version 3.0.2
