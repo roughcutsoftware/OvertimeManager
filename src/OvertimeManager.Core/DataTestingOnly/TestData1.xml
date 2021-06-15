@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestData>
+<Employees>
+  <Employee LastName="" FirstName="" CompanyKeyId="" EmployeeKeyId="" />
+</Employees>
+<Companies>
+  <Company CompanyKeyId="" CompanyName=""/>
+</Companies>
+</TestData>

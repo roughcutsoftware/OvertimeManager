@@ -1,0 +1,14 @@
+﻿
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.1.6
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 3.1.6
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.1.6
+
+
+
+https://www.nuget.org/packages/Microsoft.Extensions.Configuration/5.0.0
+Install-Package Microsoft.Extensions.Configuration -Version 5.0.0
+dotnet add package Microsoft.Extensions.Configuration --version 5.0.0
+
+https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/5.0.0
+Install-Package Microsoft.Extensions.Configuration.Json -Version 5.0.0
+dotnet add package Microsoft.Extensions.Configuration.Json --version 5.0.0

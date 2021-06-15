@@ -5,6 +5,19 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OvertimeManager.MVC5.Web", "src\OvertimeManager.MVC5.Web\OvertimeManager.MVC5.Web.csproj", "{3E5A7A04-CEBB-401B-8FF6-CFA072A2C334}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OvertimeManager.MVC5.Web.Tests", "tests\OvertimeManager.MVC5.Web.Tests\OvertimeManager.MVC5.Web.Tests.csproj", "{341E86D7-D54C-4F07-BB4E-7FE64EF8CA84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OvertimeManager.Core", "src\OvertimeManager.Core\OvertimeManager.Core.csproj", "{8473985F-8250-453D-92A1-A9767FA9CB12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OvertimeManager.EFCore.Infrastructure", "src\OvertimeManager.EFCore.Infrastructure\OvertimeManager.EFCore.Infrastructure.csproj", "{36D0E8C1-5845-4F0A-9819-850885BA8E61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OvertimeManager.ReactJS.Web", "src\OvertimeManager.ReactJS.Web\OvertimeManager.ReactJS.Web.csproj", "{76D8C745-D8F3-4487-A768-DBC6E1CA4443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{517946EE-112B-45C2-980D-F9DE86081207}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +28,22 @@ Global
 		{3E5A7A04-CEBB-401B-8FF6-CFA072A2C334}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E5A7A04-CEBB-401B-8FF6-CFA072A2C334}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E5A7A04-CEBB-401B-8FF6-CFA072A2C334}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341E86D7-D54C-4F07-BB4E-7FE64EF8CA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341E86D7-D54C-4F07-BB4E-7FE64EF8CA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341E86D7-D54C-4F07-BB4E-7FE64EF8CA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341E86D7-D54C-4F07-BB4E-7FE64EF8CA84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8473985F-8250-453D-92A1-A9767FA9CB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8473985F-8250-453D-92A1-A9767FA9CB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8473985F-8250-453D-92A1-A9767FA9CB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8473985F-8250-453D-92A1-A9767FA9CB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36D0E8C1-5845-4F0A-9819-850885BA8E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D0E8C1-5845-4F0A-9819-850885BA8E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D0E8C1-5845-4F0A-9819-850885BA8E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D0E8C1-5845-4F0A-9819-850885BA8E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D8C745-D8F3-4487-A768-DBC6E1CA4443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D8C745-D8F3-4487-A768-DBC6E1CA4443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D8C745-D8F3-4487-A768-DBC6E1CA4443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D8C745-D8F3-4487-A768-DBC6E1CA4443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

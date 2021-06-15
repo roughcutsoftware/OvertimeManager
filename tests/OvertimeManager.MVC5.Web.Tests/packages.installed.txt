@@ -1,0 +1,15 @@
+﻿https://www.nuget.org/packages/MSTest.TestFramework/1.2.0
+Install-Package MSTest.TestFramework -Version 1.2.0
+dotnet add package MSTest.TestFramework --version 1.2.0
+
+https://www.nuget.org/packages/Shouldly/3.0.2
+Install-Package Shouldly -Version 3.0.2
+dotnet add package Shouldly --version 3.0.2
+
+https://www.nuget.org/packages/NUnit/3.13.1
+Install-Package NUnit -Version 3.13.1
+dotnet add package NUnit --version 3.13.1
+
+https://www.nuget.org/packages/NUnit3TestAdapter/3.17.0
+Install-Package NUnit3TestAdapter -Version 3.17.0
+dotnet add package NUnit3TestAdapter --version 3.17.0

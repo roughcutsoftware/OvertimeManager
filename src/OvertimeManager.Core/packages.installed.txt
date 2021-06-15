@@ -1,0 +1,31 @@
+﻿
+https://www.nuget.org/packages/FluentAssertions/5.9.0
+Install-Package FluentAssertions -Version 5.9.0
+dotnet add package FluentAssertions --version 5.9.0
+
+https://www.nuget.org/packages/xunit/
+Install-Package xunit -Version 2.4.1
+dotnet add package xunit --version 2.4.1
+
+
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/3.1.9
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 3.1.9
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 3.1.9
+
+
+Installing Microsoft.EntityFrameworkCore.SqlServer 5.0.2.
+Install-Package : NU1202: Package Microsoft.EntityFrameworkCore.SqlServer 5.0.2 is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Package Microsoft.EntityFrameworkCore.SqlServer 5.0.2 
+supports: netstandard2.1 (.NETStandard,Version=v2.1)
+
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/5.0.2
+Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 5.0.2
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.0.2
+
+
+https://www.nuget.org/packages/Microsoft.Extensions.Configuration/5.0.0
+Install-Package Microsoft.Extensions.Configuration -Version 5.0.0
+dotnet add package Microsoft.Extensions.Configuration --version 5.0.0
+
+https://www.nuget.org/packages/Microsoft.Extensions.Configuration.Json/5.0.0
+Install-Package Microsoft.Extensions.Configuration.Json -Version 5.0.0
+dotnet add package Microsoft.Extensions.Configuration.Json --version 5.0.0
